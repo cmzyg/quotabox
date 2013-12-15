@@ -1,0 +1,589 @@
+
+/* @font-face {
+	font-family: 'MYRIAD';
+    src: url('http://fontsforweb.com/public/fonts/2503/MYRIAD.eot');
+	src: local('MYRIAD'), url('http://fontsforweb.com/public/fonts/2503/MYRIAD.ttf') format('truetype');
+}
+*/
+
+@font-face {
+    font-family: 'aller_lightregular';
+    src: url('http://www.quotabox.co.uk/css/fonts/aller_lt-webfont.eot');
+    src: url('http://www.quotabox.co.uk/css/fonts/aller_lt-webfont.eot?#iefix') format('embedded-opentype'),
+         url('http://www.quotabox.co.uk/css/fonts/aller_lt-webfont.woff') format('woff'),
+         url('http://www.quotabox.co.uk/css/fonts/aller_lt-webfont.ttf') format('truetype'),
+         url('http://www.quotabox.co.uk/css/fonts/aller_lt-webfont.svg#aller_lightregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'allerbold';
+    src: url('fonts/aller_bd-webfont.eot');
+    src: url('fonts/aller_bd-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/aller_bd-webfont.woff') format('woff'),
+         url('fonts/aller_bd-webfont.ttf') format('truetype'),
+         url('fonts/aller_bd-webfont.svg#allerbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.join_form :focus { 
+    outline: none;
+    border-color: #9ecaed;
+    box-shadow: 0 0 10px #9ecaed;
+}
+
+
+html {
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	margin: 0 auto;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	font-family: 'aller_lightregular';
+	color: #828282;
+
+}
+
+
+
+.banner {
+    background-image: url('../image/banner.jpg');
+    z-index: 4;
+    position: relative;
+    background-repeat: no-repeat;
+    width: 100%;
+    max-width: 1600px;
+    height: auto;
+}
+
+.right {
+	width: 100%;
+	float: right;
+}
+
+.centered {
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.quotabox {
+	width: 370px;
+	height: 140px;
+	background-image: url('../image/quotabox.png');
+	float: right;
+    margin-right: 10%;
+    cursor: pointer;
+}
+
+.quotabox_loggedin {
+	width: 350px;
+	height: 140px;
+	background-image: url('../image/quotabox_loggedin.png');
+	float: right;
+    margin-right: 10%;
+    cursor: pointer;
+}
+
+.quotabox_loggedin2 {
+	width: 370px;
+	height: 140px;
+	background-image: url('../image/quotabox_loggedin.png');
+	float: right;
+    margin-right: 10%;
+    cursor: pointer;
+}
+
+.nav {
+	width: 100%;
+	height: auto;
+	padding-right: 3%;
+}
+
+.nav_in {
+	width: 100%;
+	height: auto;
+	padding-top: 18px;
+}
+
+.nav_loggedin {
+	width: 100%;
+	height: 80px;
+	margin-left: 5%;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.nav1 {
+	width: auto;
+	height: auto;
+	float: right;
+	color: #FFFFFF;
+	font-size: 16pt;
+}
+
+.nav2 {
+	width: auto;
+	height: auto;
+	float: right;
+	color: #FFFFFF;
+	font-size: 16pt;
+}
+
+.nav3 {
+	width: auto;
+	height: auto;
+	float: right;
+	color: #FFFFFF;
+	font-size: 16pt;
+}
+
+.nav4 {
+	width: 130px;
+	height: 50px;
+	background-image: url('../image/nav_login.png');
+	float: right;
+	cursor: pointer;
+}
+
+.nav5 {
+	width: auto;
+	height: auto;
+	float: right;
+	cursor: pointer;
+	color: #FFFFFF;
+	font-size: 16pt;
+}
+
+
+
+.banner_small {
+background-image: url('../image/banner_small.jpg');
+z-index: 4;
+position: relative;
+background-repeat: no-repeat;
+width: 100%;
+max-width: 1600px;
+height: 60px;
+}
+
+
+
+.top {
+	width: 100%;
+	height: 30px;
+	background-color: #FFFFFF;
+}
+
+.navigation a:link {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.navigation a:visited {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.navigation a:active {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+a:link {
+	color: #000000;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #000000;
+	text-decoration: none;
+}
+
+a:active {
+	color: #000000;
+	text-decoration: none;
+}
+
+
+
+.lower_bar {
+	width: 100%;
+	background-color: #088A08;
+    height: 6px;
+}
+
+.navigation {
+	width: 100%;
+	height: 25px;
+	float: left;
+	font-size: 15pt;
+	background-image: url('../image/small_bg.png');
+	background-repeat: repeat;
+}
+
+.logo {
+	width: 256px;
+	height: 256px;
+	background-image: url('../image/logo.png');
+	margin: 0 auto;
+}
+
+.wid {
+	width: 100%;
+	height: auto;
+	max-height: 100%;
+}
+
+.logo_responsive {
+	width: 70%;
+	max-width: 350px;
+	height: auto;
+	float: right;
+	margin-right: 20%;
+
+}
+
+.quota {
+	width: 100%;
+	height: 53px;
+    background-color: #316e66;
+    position: absolute;
+}
+
+.inside_quota {
+	width: 100%;
+	height: 42px;
+	margin: 0 auto;
+	background-image: url('../image/banner_bg.jpg');
+	background-repeat: repeat;
+	margin-top: 5px;
+	text-align: center;
+}
+
+.content {
+	width: 30%;
+	margin: 0 auto;
+	height: auto;
+}
+
+.main_content {
+	height: auto;
+    margin: auto;
+    width:100%;
+    text-align: center;
+}
+
+.center {
+	width: 40%;
+	margin: 0 auto;
+	height: auto;
+	text-align: center;
+}
+
+.center_login {
+    width: 100%;
+	margin: 0 auto;
+	height: auto;
+	text-align: center;
+}
+
+.centered_content {
+	width: 80%;
+	margin: 0 auto;
+	height: auto;
+	text-align: center;
+}
+
+
+.footer {
+	position:fixed;
+    left:0px;
+    bottom:0px;
+	width: 100%;
+	height: 200px;
+	background-color: #000000;
+	border-top: 6px solid #d98c2d;
+	margin-bottom: 0px;
+}
+
+.documents {
+	width: 200px;
+	height: 200px;
+	background-image: url('../image/documents.png');
+	margin: 0 auto;
+	display: inline-block;
+	cursor: pointer;
+	margin-left: 2%;
+}
+.music {
+	width: 200px;
+	height: 200px;
+	background-image: url('../image/music.png');
+    margin: 0 auto;
+    display: inline-block;
+    cursor: pointer;
+    margin-left: 2%;
+}
+
+.photos {
+	width: 200px;
+	height: 200px;
+	background-image: url('../image/photos.png');
+	margin: 0 auto;
+	display: inline-block;
+    cursor: pointer;
+    margin-left: 2%;
+}
+
+.other {
+	width: 200px;
+	height: 200px;
+	background-image: url('../image/other.png');
+	margin: 0 auto;
+	display: inline-block;
+    cursor: pointer;
+    margin-left: 2%;
+}
+
+
+img.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  height: 200px;
+}
+
+.heading {
+	width: 100%;
+	height: auto;
+	font-family: 'MYRIAD' !important;
+	font-size: 26pt;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.h1 {
+	width: 100%;
+	height: auto;
+	text-align: center;
+}
+
+.number {
+	color: #FFFFFF;
+	text-align: center;
+	margin-top: 70%;
+	margin-left: 30%;
+}
+
+.description {
+	width: 400px;
+	height: 150px;
+	border: 1.8px solid #828282;
+	border-radius: 8px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	padding: 5px;
+}
+
+.text_join_now {
+	width: 100%;
+	height: auto;
+	margin-top: 50%;
+	padding-top: 50%;
+}
+
+.join_form {
+	width: 80%;
+	height: 40px;
+	border-radius: 8px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	border: none;
+	border: 1.8px solid #828282;
+	padding-left: 9px;
+}
+
+.browse_field {
+	width: 40%;
+	height: 20px;
+	border-radius: 8px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	border: none;
+	border: 1.8px solid #828282;
+	padding-left: 9px;
+}
+
+.join_form_small {
+	width: 320px;
+	max-width: 25%;
+	height: 25px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border: none;
+	border: 1.8px solid #828282;
+	padding-left: 9px;
+	float: right;
+	margin-right: 10%;
+	color: gray;
+}
+
+input {
+    outline: none;
+}
+
+textarea {
+	outline: none;
+}
+
+.button_join {
+	cursor: pointer;
+	width: 120px;
+	height: 51px;
+	background: none;
+	border: none;
+	background-image: url('../image/join.png');
+	float: right;
+	margin-right: 10%;
+	max-width: 25%;
+}
+
+.file_input {
+	margin-top: 10px;
+	width: 130px;
+	cursor: pointer;
+	height: 51px;
+	background: none;
+    margin: 0 auto;
+	max-width: 25%;
+}
+
+.button_login {
+	cursor: pointer;
+	width: 190px;
+	height: 80px;
+	background: none;
+	border: none;
+	background-image: url('../image/login.png');
+}
+
+.button_upload {
+	cursor: pointer;
+	width: 168px;
+	height: 80px;
+	background: none;
+	border: none;
+	background-image: url('../image/upload.png');
+	background-repeat: no-repeat;
+}
+
+.button_reset {
+	cursor: pointer;
+	width: 168px;
+	height: 80px;
+	background: none;
+	border: none;
+	background-image: url('../image/reset.png');
+	background-repeat: no-repeat;
+}
+
+.button_update {
+	cursor: pointer;
+	width: 168px;
+	height: 80px;
+	background: none;
+	border: none;
+	background-image: url('../image/update.png');
+	background-repeat: no-repeat;
+}
+
+.top_bar {
+	width: 100%;
+	height: auto;
+	background-color: black;
+	color: white;
+	padding: 6px;
+	text-align: center;
+	opacity: 0.5;
+}
+
+.actions {
+	width: 55px;
+	height: 18px;
+	display: inline;
+}
+
+.download {
+	width: 30px;
+	height: 30px;
+	background: none;
+	border: none;
+	background-image: url('../image/icon_download.png');
+	cursor: pointer;
+}
+
+.delete {
+	width: 30px;
+	height: 30px;
+	background: none;
+	border: none;
+	background-image: url('../image/icon_delete.png');
+	cursor: pointer;
+}
+
+.edit {
+	width: 30px;
+	height: 30px;
+	background: none;
+	border: none;
+	background-image: url('../image/icon_edit.png');
+	cursor: pointer;
+}
+
+
+@media (max-width: 600px) {
+
+  .nav1 {
+  	font-size: 0.9em;
+  }
+
+  .nav2 {
+  	font-size: 0.9em;
+  }
+
+  .nav3 {
+  	font-size: 0.9em;
+  }
+
+  .nav5 {
+  	font-size: 0.9em;
+  }
+
+
+}
+
+
+.padd {
+	padding: 15px;
+}
+
+.padd_join
+{
+	margin-right: 10%;
+}
+
+.container_full_width {
+	width: 100%;
+	height: auto;
+}
