@@ -1,0 +1,11 @@
+{
+    "repositories": [
+        {
+            "url": "https://github.com/cmzyg/quotabox.git",
+            "type": "git"
+        }
+    ],
+    "require": {
+        "cmzyg/quotabox": "master"
+    }
+}
